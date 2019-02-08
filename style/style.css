@@ -1,0 +1,59 @@
+body {
+    color: black;
+    margin: 0;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 21px;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+
+
+body .about-me {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+body .about-me .photo {
+    height: 60vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    max-width: 36%;
+}
+
+body .about-me .container {
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    -webkit-font-smoothing: antialiased;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+
+body .about-me .header {
+    font-size: 50px;
+    color: black;
+}
+
+body .about-me .text {
+    color: gray;
+}
+
+body .time-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 60px;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #87ddd3;
+}
