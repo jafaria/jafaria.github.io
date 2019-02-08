@@ -1,2 +1,3 @@
 # jafaria.github.io
-gh website
+
+This is a basic skeleton of a website.
